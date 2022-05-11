@@ -2,3 +2,13 @@
 
 
 # Imprima todos os itens da sua lista de índice par. Imprima o índice e o item.
+
+lista = list(range(1,61)) 
+
+print("======= ↔ =====")
+print(" Índice ↔ Item ")
+print("======= ↔ =====")
+
+for indice, item in enumerate(lista):
+    if indice % 2 == 0:
+        print(f'   {indice:2}   ↔  {item:2} ')
