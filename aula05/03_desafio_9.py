@@ -44,4 +44,5 @@ The only thing I'll ever ask of you
 You've got to promise not to stop when I say when
 """
 
-
+saida = sorted(set(everlong_foo_fighters.split()))
+print(saida)
